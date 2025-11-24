@@ -160,9 +160,6 @@ class MenuSearch(View):
 
         return render(request, 'customer/menu.html', context)
     
-class CustomerList(ListAPIView):
-    queryset = Customer.objects.all()
-    serializer_class = CustomerSerializer
 
 #API Implementation-----------class CustomerList(APIView):
 class CustomerList(APIView):
