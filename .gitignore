@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# SQLite database
+db.sqlite3
+
+# VSCode settings
+.vscode/
+
+# Django migrations cache
+*.pyc

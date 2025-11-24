@@ -37,7 +37,9 @@ class OrderModel(models.Model):
         return f'Order: {self.created_on.strftime("%b %d %I: %M %p")}'
 
 class Customer(models.Model):
-    name = models.CharField(max_length=50)
-    email = models.EmailField()
+    name = models.CharField(max_length=100)
+    email = models.EmailField(unique=True)
+
     def __str__(self):
         return self.name
+
