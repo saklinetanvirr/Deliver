@@ -6,3 +6,5 @@ requests>=2.31
 Pillow
 django-crispy-forms
 crispy-bootstrap4
+django-allauth
+
