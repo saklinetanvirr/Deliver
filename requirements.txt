@@ -4,3 +4,5 @@ pytest>=8.0
 pytest-django>=4.5
 requests>=2.31
 Pillow
+django-crispy-forms
+crispy-bootstrap4
